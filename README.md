@@ -1,4 +1,4 @@
-# Daily Planner
+# Halloween 2024 Project
 
 <div>
     <a href="https://www.youtube.com/@NewLand2019-JkhTV" target="_blank">
