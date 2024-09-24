@@ -279,7 +279,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189692755}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.4507412, y: 0.44577456, z: -0.2784879, w: 0.7214998}
+  m_LocalRotation: {x: 0.45074123, y: 0.44577453, z: -0.27848786, w: 0.72149986}
   m_LocalPosition: {x: -201.4071, y: 397.76956, z: -85.76238}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -415,6 +415,99 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &205299632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 205299633}
+  - component: {fileID: 205299634}
+  m_Layer: 0
+  m_Name: Note Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &205299633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205299632}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &205299634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205299632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85fc9ba63c665f428a16f9283ff4302, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes:
+  - {fileID: 5873835944485223791, guid: 1e91f0dc4f8935043b7a5d76536cd498, type: 3}
+  - {fileID: 6694859663287944743, guid: a0ce22fef93563e43ade56eeedec9d40, type: 3}
+  - {fileID: 3036482072171217630, guid: 6ff24aae7637aed41abc3aa3c0ed7594, type: 3}
+  - {fileID: 6556084492329611746, guid: fdcd687cebb8b114b9d5b96fb8f9f5a5, type: 3}
+  - {fileID: 4691951056097483212, guid: 73fb0d9860634764f9587f081401cbbc, type: 3}
+  noteParent: {fileID: 205299633}
+  makeNoteCount: 50
+  spawnTriggers:
+  - time: 14.5
+    noteSpawnDatas:
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.4444444
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.4444444
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.4444444
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.4444444
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.4444444
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.4444444
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.4444444
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.4444444
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.2222222
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.2222222
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.4444444
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.4444444
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.4444444
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.4444444
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.4444444
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.2222222
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.2222222
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0.2222222
+    - position: {x: 100, y: 5, z: 100}
+      waitTime: 0
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,6 +1730,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 205299633}
   - {fileID: 1624914307}
   - {fileID: 330585546}
   - {fileID: 832575519}
